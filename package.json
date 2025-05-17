@@ -1,6 +1,6 @@
 {
   "name": "http-errors-plus",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Next-gen HTTP error handling for modern JavaScript and TypeScript apps — structured, overrideable, and developer-focused.",
   "main": "dist/index.cjs",
   "module": "dist/index.esm.js",
@@ -41,12 +41,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/your-username/http-errors-plus.git"
+    "url": "https://github.com/LPIX-11/http-errors-plus.git"
   },
   "bugs": {
-    "url": "https://github.com/your-username/http-errors-plus/issues"
+    "url": "https://github.com/LPIX-11/http-errors-plus/issues"
   },
-  "homepage": "https://github.com/your-username/http-errors-plus#readme",
+  "homepage": "https://github.com/LPIX-11/http-errors-plus#readme",
   "author": {
     "name": "Mohamed Johnson (lpix-11)",
     "email": "mohamed.johnson@orange-sonatel.com",
