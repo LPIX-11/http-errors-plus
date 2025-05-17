@@ -2,7 +2,9 @@
   "name": "http-errors-plus",
   "version": "1.0.0",
   "description": "Next-gen HTTP error handling for modern JavaScript and TypeScript apps — structured, overrideable, and developer-focused.",
-  "main": "./src/index.js",
+  "main": "dist/index.cjs",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
   "exports": {
     ".": {
       "require": "./dist/index.cjs",
@@ -10,7 +12,6 @@
       "types": "./dist/index.d.ts"
     }
   },
-  "types": "./types/index.d.ts",
   "files": [
     "dist",
     "src",
@@ -19,9 +20,8 @@
     "LICENSE"
   ],
   "scripts": {
-    "test": "node test/basic.test.js",
-    "lint": "echo 'linting coming soon'",
-    "build": "echo 'no build needed — pure JS'"
+    "dev": "NODE_TLS_REJECT_UNAUTHORIZED=0 nodemon index.js",
+    "build": "rm -rf dist && vite build && npx tsc --emitDeclarationOnly --declaration --declarationDir dist"
   },
   "keywords": [
     "http",
@@ -48,8 +48,8 @@
   },
   "homepage": "https://github.com/your-username/http-errors-plus#readme",
   "author": {
-    "name": "Mohamed Johnson",
-    "email": "you@example.com",
+    "name": "Mohamed Johnson (lpix-11)",
+    "email": "mohamed.johnson@orange-sonatel.com",
     "url": "https://github.com/LPIX-11"
   },
   "license": "MIT",

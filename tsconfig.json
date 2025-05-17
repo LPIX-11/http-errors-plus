@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "emitDeclarationOnly": true,
+    "declarationDir": "./dist",
+    "module": "ESNext",
+    "target": "ESNext",
+    "moduleResolution": "Node",
+    "strict": true,
+    "esModuleInterop": true,
+    "allowJs": true,
+    "outDir": "./dist"
+  },
+  "include": ["index.js", "src/**/*.js", "src/types/**/*.d.ts"],
+  "exclude": ["node_modules", "dist"]
+}
