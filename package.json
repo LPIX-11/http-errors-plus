@@ -1,0 +1,73 @@
+{
+  "name": "http-errors-plus",
+  "version": "1.0.0",
+  "description": "Next-gen HTTP error handling for modern JavaScript and TypeScript apps — structured, overrideable, and developer-focused.",
+  "main": "./src/index.js",
+  "exports": {
+    ".": {
+      "require": "./dist/index.cjs",
+      "import": "./dist/index.esm.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "types": "./types/index.d.ts",
+  "files": [
+    "dist",
+    "src",
+    "types",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node test/basic.test.js",
+    "lint": "echo 'linting coming soon'",
+    "build": "echo 'no build needed — pure JS'"
+  },
+  "keywords": [
+    "http",
+    "error",
+    "errors",
+    "http-errors",
+    "structured-errors",
+    "http status",
+    "api",
+    "developer-experience",
+    "observable",
+    "typescript",
+    "javascript",
+    "ESM",
+    "fastify",
+    "express"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/http-errors-plus.git"
+  },
+  "bugs": {
+    "url": "https://github.com/your-username/http-errors-plus/issues"
+  },
+  "homepage": "https://github.com/your-username/http-errors-plus#readme",
+  "author": {
+    "name": "Mohamed Johnson",
+    "email": "you@example.com",
+    "url": "https://github.com/LPIX-11"
+  },
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+    "devDependencies": {
+    "@jsdoc/salty": "^0.2.8",
+    "@types/events": "^3.0.3",
+    "@types/linkify-it": "^5.0.0",
+    "@types/node": "^22.5.4",
+    "better-docs": "^2.7.3",
+    "prettier": "^3.2.5",
+    "typescript": "^5.5.4",
+    "vite": "^5.4.3"
+  },
+  "dependencies": {
+    "statuses": "^2.0.1"
+  }
+}
